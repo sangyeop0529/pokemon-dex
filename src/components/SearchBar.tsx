@@ -2,6 +2,7 @@ interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
 }
+
 export default function SearchBar({ value, onChange }: SearchBarProps) {
   return (
     <div className="relative w-full max-w-md mx-auto">
